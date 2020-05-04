@@ -1,5 +1,6 @@
 #include <iostream>
 #include <list>
+#include <string>
 
 using namespace std;
 
@@ -12,6 +13,12 @@ int main(int argc, char** argv) {
 	for (int elem : intList) {
 		cout << "Found list element: " << elem << endl;
 	}
+
+	string a = "Hello";
+
+	cout << a << endl;
+
+	cout << a.substr(2, 2) << endl;
 
 	return 0;
 }
